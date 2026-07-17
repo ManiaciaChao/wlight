@@ -1,0 +1,14 @@
+[Unit]
+Description=wlight monitor brightness service
+PartOf=graphical-session.target
+After=graphical-session.target
+
+[Service]
+Type=dbus
+BusName=io.github.wlight
+ExecStart=@out@/bin/wlightd
+Restart=on-failure
+RestartSec=2
+
+[Install]
+WantedBy=graphical-session.target

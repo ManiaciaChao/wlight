@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=wlight
+Comment=Control per-monitor hardware and software brightness
+Exec=wlight-applet
+Icon=io.github.wlight
+Categories=Settings;
+Keywords=brightness;display;monitor;DDC;gamma;Wayland;
+StartupNotify=true

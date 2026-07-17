@@ -1,0 +1,23 @@
+[package]
+name = "wlight-backend"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+publish.workspace = true
+
+[dependencies]
+anyhow.workspace = true
+blake3.workspace = true
+bytemuck.workspace = true
+crossbeam-channel.workspace = true
+ddc-hi.workspace = true
+tempfile.workspace = true
+tracing.workspace = true
+wayrs-client.workspace = true
+wayrs-protocols.workspace = true
+wlight-core.workspace = true
+
+[lints]
+workspace = true
